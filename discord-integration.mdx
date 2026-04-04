@@ -1,0 +1,55 @@
+---
+title: "Discord Integration"
+---
+
+<Steps>
+  <Step title="Open Discord Integration Settings">
+    Navigate to **Manage Server** → **Integrations** → **Discord Audit Log**
+  </Step>
+  <Step title="Authorize the Bot">
+    Click **Add to Discord** to invite the bot to your server. You'll be redirected automatically after authorizing.
+  </Step>
+  <Step title="Configure Log Channel">
+    Select the Discord channel where you want activity logs sent.
+  </Step>
+  <Step title="Choose Events to Log">
+    Enable or disable individual event types based on your needs.
+  </Step>
+  <Step title="Save Configuration">
+    Click **Save** to apply your settings.
+  </Step>
+</Steps>
+
+## Loggable Events
+
+<Columns cols={2}>
+  <Card title="Session Events" icon="clock">
+    - CAD session started
+    - CAD session ended
+    - CAD session time
+  </Card>
+
+  <Card title="Call Management" icon="phone">
+    - Calls created
+    - Calls updated
+    - Calls closed
+  </Card>
+
+  <Card title="Unit Operations" icon="alert-circle">
+    - Unit panic triggered
+  </Card>
+
+  <Card title="Team Changes" icon="users">
+    - Role changes
+    - Member joins/removals
+    - Department updates
+  </Card>
+
+  <Card title="Security" icon="key">
+    - PRC key changed
+  </Card>
+</Columns>
+
+<Tip>
+  You can re-add the bot at any time if it's removed from your Discord. Logs will resume automatically once it's reconnected.
+</Tip>
