@@ -14,49 +14,9 @@
         "tab": "Documentation",
         "anchors": [
           {
-            "anchor": "Welcome to Kova",
-            "icon": "house",
-            "pages": [
-              "welcome-to-kova"
-            ]
-          },
-          {
-            "anchor": "Getting Started",
-            "icon": "rocket",
-            "pages": [
-              "creating-a-server",
-              "joining-a-server",
-              "linking-your-accoutn"
-            ]
-          },
-          {
-            "anchor": "Setting Up Your Server",
-            "icon": "gear",
-            "groups": [
-              {
-                "group": "Server Setup",
-                "pages": [
-                  "server-management-overview",
-                  "general-settings",
-                  "members",
-                  "roles-and-permissions",
-                  "departments-and-divisions"
-                ]
-              },
-              {
-                "group": "Integrations",
-                "pages": [
-                  "discord-integration",
-                  {
-                    "group": "ER:LC",
-                    "pages": [
-                      "api-key",
-                      "event-webhook"
-                    ]
-                  }
-                ]
-              }
-            ]
+            "anchor": "Kova Site",
+            "icon": "globe",
+            "href": "https://kovahub.app"
           },
           {
             "anchor": "Discord",
@@ -69,9 +29,42 @@
             "href": "mailto:your-email@kovahub.app"
           },
           {
-            "anchor": "Kova Site",
-            "icon": "globe",
-            "href": "https://kovahub.app"
+            "anchor": "Documentation",
+            "icon": "book-open",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "welcome-to-kova",
+                  "creating-a-server",
+                  "joining-a-server",
+                  "linking-your-accoutn"
+                ]
+              },
+              {
+                "group": "Setting Up Your Server",
+                "pages": [
+                  "server-management-overview",
+                  "general-settings",
+                  "members",
+                  "roles-and-permissions",
+                  "departments-and-divisions",
+                  {
+                    "group": "Integrations",
+                    "pages": [
+                      "discord-integration",
+                      {
+                        "group": "ER:LC",
+                        "pages": [
+                          "api-key",
+                          "event-webhook"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
