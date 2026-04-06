@@ -44,7 +44,7 @@
               {
                 "group": "Setting Up Your Server",
                 "pages": [
-                  "server-management-overview",
+                  "server-management",
                   "general-settings",
                   "members",
                   "roles-and-permissions",
