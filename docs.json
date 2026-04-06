@@ -65,6 +65,15 @@
                     ]
                   }
                 ]
+              },
+              {
+                "group": "CAD Panels",
+                "pages": [
+                  "dispatch",
+                  "police",
+                  "fire-ems",
+                  "dot-panel"
+                ]
               }
             ]
           }
