@@ -24,11 +24,6 @@
             "href": "https://discord.gg/tTW9hBEaSC"
           },
           {
-            "anchor": "Email",
-            "icon": "envelope",
-            "href": "mailto:your-email@kovahub.app"
-          },
-          {
             "anchor": "Documentation",
             "icon": "book-open",
             "pages": [
