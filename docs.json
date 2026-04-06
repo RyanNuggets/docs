@@ -1,22 +1,24 @@
 "navigation": {
-  "type": "sidebar",
-  "sections": [
+  "groups": [
     {
-      "title": "Introduction",
+      "group": "Introduction",
+      "icon": "book-open",
       "pages": [
         "welcome-to-kova"
       ]
     },
     {
-      "title": "Getting Started",
+      "group": "Getting Started",
+      "icon": "play",
       "pages": [
         "creating-a-server",
         "joining-a-server",
-        "linking-your-accoutn"
+        "linking-your-account"
       ]
     },
     {
-      "title": "Setting Up Your Server",
+      "group": "Server Configuration",
+      "icon": "settings",
       "pages": [
         "server-management-overview",
         "general-settings",
@@ -25,6 +27,7 @@
         "departments-and-divisions",
         {
           "group": "Integrations",
+          "icon": "plug",
           "pages": [
             "discord-integration",
             {
