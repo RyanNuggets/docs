@@ -2,56 +2,152 @@
 title: "Roles & Permissions"
 ---
 
-Kova Hub has a fully granular role-based permission system. You create custom roles and assign any combination of permissions to them. Members can hold multiple roles.
+Kova Hub features a fully granular role-based permission system. Create custom roles, assign any combination of permissions, and give members multiple roles for flexible access control.
 
-**Permission Groups:**
+<Tip>
+  The server owner always has full access regardless of assigned roles.
+</Tip>
 
-Server
+## Server Management
 
-- Super Admin — Full server management access except the danger zone
-- Manage Server — Edit general server configuration
-- Manage Roles — Create and update roles
-- Manage Departments — Create and update departments and divisions
-- Manage Integrations — Configure Discord and external integrations
+<Columns cols={2}>
+  <Card title="Super Admin" color="#FFD700" icon="crown">
+    Full server management access except the danger zone. Configure everything except critical destructive actions.
+  </Card>
 
-Members
+  <Card title="Manage Server" icon="sliders">
+    Edit general server configuration and settings.
+  </Card>
 
-- View Members — See server members and their assigned roles
-- Manage Members — Edit member roles and remove access
-- Invite Members — Invite users into the server
+  <Card title="Manage Roles" icon="shield">
+    Create and update custom roles for your server.
+  </Card>
 
-Records
+  <Card title="Manage Departments" icon="sitemap">
+    Create and update departments and divisions.
+  </Card>
 
-- View Records — View reports and department records
-- Create Records — Create new incident and case records
-- Edit Records — Update existing records
-- Delete Records — Remove records permanently
+  <Card title="Manage Integrations" icon="plug">
+    Configure Discord and external integrations.
+  </Card>
+</Columns>
 
-Dispatch
+## Member Management
 
-- View Dispatch — Access the dispatch board
-- Manage Dispatch — Edit calls, statuses, and assignments
+<Columns cols={2}>
+  <Card title="View Members" icon="users">
+    See server members and their assigned roles.
+  </Card>
 
-Supervisor
+  <Card title="Manage Members" icon="user-gear">
+    Edit member roles and remove access.
+  </Card>
 
-- View Bodycam — View live bodycam feeds from other units without requiring dispatch access
+  <Card title="Invite Members" icon="user-plus">
+    Invite users into the server.
+  </Card>
+</Columns>
 
-Police
+## Records & Incidents
 
-- View Police — Access police CAD and incident records
-- Manage Police — Create and update police records
+<Columns cols={2}>
+  <Card title="View Records" icon="file-lines">
+    View reports and department records.
+  </Card>
 
-Fire / EMS
+  <Card title="Create Records" icon="file-circle-plus">
+    Create new incident and case records.
+  </Card>
 
-- View Fire / Manage Fire
-- View Fire Roster / Manage Fire Roster
-- View EMS / Manage EMS
-- View EMS Roster / Manage EMS Roster
+  <Card title="Edit Records" icon="file-pen">
+    Update existing records.
+  </Card>
 
-DOT
+  <Card title="Delete Records" icon="trash">
+    Remove records permanently.
+  </Card>
+</Columns>
 
-- View DOT / Manage DOT
-- Issue Citations
-- Manage Permits
+## Dispatch Operations
 
-**Note:** The server owner always has full access regardless of assigned roles.
+<Columns cols={2}>
+  <Card title="View Dispatch" icon="radio">
+    Access the dispatch board.
+  </Card>
+
+  <Card title="Manage Dispatch" icon="sliders">
+    Edit calls, statuses, and assignments.
+  </Card>
+
+  <Card title="View Bodycam" icon="video">
+    View live bodycam feeds from other units without requiring dispatch access.
+  </Card>
+</Columns>
+
+## Law Enforcement
+
+<Columns cols={2}>
+  <Card title="View Police" icon="badge">
+    Access police CAD and incident records.
+  </Card>
+
+  <Card title="Manage Police" icon="badge-check">
+    Create and update police records.
+  </Card>
+</Columns>
+
+## Fire & EMS Services
+
+<Columns cols={3}>
+  <Card title="View Fire" icon="fire">
+    Access fire department records.
+  </Card>
+
+  <Card title="Manage Fire" icon="fire">
+    Create and update fire records.
+  </Card>
+
+  <Card title="View Fire Roster" icon="list">
+    View fire department roster.
+  </Card>
+
+  <Card title="Manage Fire Roster" icon="list-check">
+    Update fire department roster.
+  </Card>
+
+  <Card title="View EMS" icon="ambulance">
+    Access EMS records.
+  </Card>
+
+  <Card title="Manage EMS" icon="ambulance">
+    Create and update EMS records.
+  </Card>
+
+  <Card title="View EMS Roster" icon="list">
+    View EMS roster.
+  </Card>
+
+  <Card title="Manage EMS Roster" icon="list-check">
+    Update EMS roster.
+  </Card>
+</Columns>
+
+## Department of Transportation
+
+<Columns cols={2}>
+  <Card title="View DOT" icon="road">
+    Access DOT records.
+  </Card>
+
+  <Card title="Manage DOT" icon="road">
+    Create and update DOT records.
+  </Card>
+
+  <Card title="Issue Citations" icon="ticket">
+    Issue traffic citations.
+  </Card>
+
+  <Card title="Manage Permits" icon="file-check">
+    Manage permits and licenses.
+  </Card>
+</Columns>
