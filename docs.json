@@ -81,7 +81,7 @@
   "logo": {
     "light": "/images/Asset2@2x.png",
     "dark": "/images/Asset2@2x.png",
-    "href": "https://docs.kovahub.app/welcome-to-kova"
+    "href": "https://docs.kovahub.app/welcome"
   },
   "navbar": {
     "links": [],
