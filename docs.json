@@ -69,10 +69,15 @@
               {
                 "group": "CAD Panels",
                 "pages": [
-                  "dispatch",
-                  "police",
-                  "fire-ems",
-                  "dot-panel"
+                  {
+                    "group": "Dispatch Panel",
+                    "pages": [
+                      "overview",
+                      "creating-and-managing-calls",
+                      "units-and-statuses",
+                      "unit-groups"
+                    ]
+                  }
                 ]
               }
             ]
