@@ -52,12 +52,17 @@
                   {
                     "group": "Integrations",
                     "pages": [
-                      "discord-integration",
                       {
-                        "group": "ER:LC",
+                        "group": "ER:LC Setup",
                         "pages": [
                           "api-key",
                           "event-webhook"
+                        ]
+                      },
+                      {
+                        "group": "Discord Setup",
+                        "pages": [
+                          "discord-integration"
                         ]
                       }
                     ]
