@@ -11,57 +11,24 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
-        "pages": [
+        "tab": "Untitled Tab",
+        "anchors": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "creating-a-server",
-              "joining-a-server",
-              "linking-your-accoutn"
-            ]
+            "anchor": "Email",
+            "icon": "envelope",
+            "href": "mailto:support@kovahub.app"
           },
           {
-            "group": "Setting Up Your Server",
-            "pages": [
-              "server-management-overview",
-              "general-settings",
-              "members",
-              "roles-and-permissions",
-              "departments-and-divisions",
-              {
-                "group": "Integrations",
-                "pages": [
-                  "discord-integration",
-                  {
-                    "group": "ER:LC",
-                    "pages": [
-                      "api-key",
-                      "event-webhook"
-                    ]
-                  }
-                ]
-              }
-            ]
+            "anchor": "Discord",
+            "icon": "discord",
+            "href": "https://discord.gg/kovahub"
+          },
+          {
+            "anchor": "Kova Site",
+            "icon": "globe",
+            "href": "https://kovahub.app"
           }
         ]
-      }
-    ],
-    "anchors": [
-      {
-        "anchor": "Email",
-        "icon": "envelope",
-        "href": "mailto:support@kovahub.app"
-      },
-      {
-        "anchor": "Discord",
-        "icon": "discord",
-        "href": "https://discord.gg/kovahub"
-      },
-      {
-        "anchor": "Kova Site",
-        "icon": "globe",
-        "href": "https://kovahub.app"
       }
     ]
   },
