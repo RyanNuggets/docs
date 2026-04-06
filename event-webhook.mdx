@@ -2,12 +2,63 @@
 title: "Event Webhook"
 ---
 
-The PRC Event Webhook lets Kova Hub receive live in-game events from your ER:LC server, including 911 calls placed by civilians in-game.
+<div style={{ marginBottom: "3rem" }}>
+  <h1 style={{ fontSize: "2.5rem", fontWeight: "700", marginBottom: "0.5rem", lineHeight: "1.2" }}>
+    Event Webhook
+  </h1>
 
-When a civilian dials 911 in-game, the call appears on the dispatch board in real time with an alert chime. Dispatchers can then assign units without needing a separate system.
+  <p style={{ fontSize: "1.125rem", color: "var(--text-secondary)", marginBottom: 0 }}>
+    Receive live in-game events from your ER:LC server in real time
+  </p>
+</div>
 
-**Requirements:**
+<div style={{ marginBottom: "3rem", padding: "1.5rem", borderRadius: "0.75rem", backgroundColor: "var(--background-secondary)", borderLeft: "4px solid var(--primary)" }}>
+  <p style={{ marginBottom: 0, fontSize: "1rem", lineHeight: "1.6" }}>
+    When a civilian dials 911 in-game, the call appears on your dispatch board instantly with an alert chime. Dispatchers can assign units without switching systems.
+  </p>
+</div>
 
-- Your ERLC Server API Key must be saved first (see ERLC API Key)
+## Key Features
 
-**Setup:** The webhook URL is generated automatically once your ERLC key is saved. Follow the on-screen setup instructions in Manage Server → Integrations → PRC Event Webhook to configure it inside your ER:LC private server settings. 
+<Columns cols={2}>
+  <Card title="Real-Time 911 Calls" color="#3B82F6" icon="phone">
+    Receive civilian emergency calls instantly on your dispatch board with audio alerts.
+  </Card>
+
+  <Card title="Instant Dispatch" color="#10B981" icon="zap">
+    Assign units immediately without leaving Kova Hub or using external systems.
+  </Card>
+</Columns>
+
+## Getting Started
+
+<Steps>
+  <Step title="Save Your ERLC Server API Key">
+    Ensure your ER:LC Server API Key is configured in your account settings. [Learn how to set up your API key](/erlc-api-key).
+  </Step>
+  <Step title="Generate Webhook URL">
+    Your webhook URL is generated automatically once your ERLC key is saved. No manual configuration needed.
+  </Step>
+  <Step title="Configure in ER:LC Settings">
+    Go to **Manage Server → Integrations → PRC Event Webhook** and paste the generated URL into your ER:LC private server settings.
+  </Step>
+  <Step title="Start Receiving Events">
+    Once configured, live 911 calls will appear on your dispatch board in real time.
+  </Step>
+</Steps>
+
+## Requirements
+
+<Info>
+  Before setting up the Event Webhook, ensure you have:
+
+  - Your **ERLC Server API Key** saved in Kova Hub
+  - Access to your **ER:LC private server settings**
+  - **Dispatcher permissions** to manage the integration
+</Info>
+
+## Need Help?
+
+<Callout icon="question" color="#8B5CF6">
+  If you encounter issues during setup, check your API key configuration or contact support for assistance.
+</Callout>
