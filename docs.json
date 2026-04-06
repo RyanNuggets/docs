@@ -51,9 +51,11 @@
                   "departments-and-divisions",
                   {
                     "group": "Integrations",
+                    "icon": "plug",
                     "pages": [
                       {
                         "group": "ER:LC Setup",
+                        "icon": "gamepad-modern",
                         "pages": [
                           "api-key",
                           "event-webhook"
@@ -61,6 +63,7 @@
                       },
                       {
                         "group": "Discord Setup",
+                        "icon": "message",
                         "pages": [
                           "discord-integration"
                         ]
