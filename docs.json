@@ -1,47 +1,83 @@
-"navigation": {
-  "anchors": [
-    {
-      "anchor": "Documentation",
-      "icon": "book-open",
-      "groups": [
-        {
-          "group": "Introduction",
-          "pages": [
-            "welcome-to-kova"
-          ]
-        },
-        {
-          "group": "Getting Started",
-          "pages": [
-            "creating-a-server",
-            "joining-a-server",
-            "linking-your-account"
-          ]
-        },
-        {
-          "group": "Server Configuration",
-          "pages": [
-            "server-management-overview",
-            "general-settings",
-            "members",
-            "roles-and-permissions",
-            "departments-and-divisions",
-            {
-              "group": "Integrations",
-              "pages": [
-                "discord-integration",
-                {
-                  "group": "ER:LC",
-                  "pages": [
-                    "api-key",
-                    "event-webhook"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Kova Hub Docs",
+  "colors": {
+    "primary": "#ff7bac",
+    "light": "#ffb2ce",
+    "dark": "#ff4d8e"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Introduction",
+        "icon": "house",
+        "pages": [
+          "welcome-to-kova"
+        ]
+      },
+      {
+        "anchor": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          "creating-a-server",
+          "joining-a-server",
+          "linking-your-accoutn"
+        ]
+      },
+      {
+        "anchor": "Setting Up Your Server",
+        "icon": "gear",
+        "pages": [
+          "server-management-overview",
+          "general-settings",
+          "members",
+          "roles-and-permissions",
+          "departments-and-divisions",
+          {
+            "group": "Integrations",
+            "pages": [
+              "discord-integration",
+              {
+                "group": "ER:LC",
+                "pages": [
+                  "api-key",
+                  "event-webhook"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/Asset2@2x.png",
+    "dark": "/images/Asset2@2x(1).png",
+    "href": "https://docs.kovahub.app/welcome-to-kova"
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
     }
-  ]
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "appearance": {
+    "strict": false
+  }
 }
