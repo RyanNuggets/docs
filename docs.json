@@ -31,7 +31,8 @@
           {
             "anchor": "Documentation",
             "icon": "book-open",
-            "groups": [
+            "pages": [
+              "welcome",
               {
                 "group": "Getting Started",
                 "pages": [
