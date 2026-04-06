@@ -11,41 +11,67 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Introduction",
-        "pages": [
-          "welcome-to-kova"
-        ]
-      },
-      {
-        "tab": "Getting Started",
-        "pages": [
-          "creating-a-server",
-          "joining-a-server",
-          "linking-your-accoutn"
-        ]
-      },
-      {
-        "tab": "Setting Up Your Server",
-        "pages": [
-          "server-management-overview",
-          "general-settings",
-          "members",
-          "roles-and-permissions",
-          "departments-and-divisions",
+        "tab": "Documentation",
+        "groups": [
           {
-            "group": "Integrations",
+            "group": "Introduction",
             "pages": [
-              "discord-integration",
+              "welcome-to-kova"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "creating-a-server",
+              "joining-a-server",
+              "linking-your-accoutn"
+            ]
+          },
+          {
+            "group": "Setting Up Your Server",
+            "pages": [
+              "server-management-overview",
+              "general-settings",
+              "members",
+              "roles-and-permissions",
+              "departments-and-divisions",
               {
-                "group": "ER:LC",
+                "group": "Integrations",
                 "pages": [
-                  "api-key",
-                  "event-webhook"
+                  "discord-integration",
+                  {
+                    "group": "ER:LC",
+                    "pages": [
+                      "api-key",
+                      "event-webhook"
+                    ]
+                  }
                 ]
               }
             ]
           }
         ]
+      }
+    ],
+    "anchors": [
+      {
+        "anchor": "Welcome to Kova",
+        "href": "/welcome-to-kova"
+      },
+      {
+        "anchor": "Discord",
+        "href": "https://discord.gg/your-invite-link",
+        "icon": "discord"
+      },
+      {
+        "anchor": "Email",
+        "href": "mailto:your-email@kovahub.app",
+        "icon": "envelope"
+      },
+      {
+        "anchor": "Kova Site",
+        "href": "https://kovahub.app",
+        "icon": "globe"
       }
     ]
   },
@@ -64,15 +90,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "appearance": {
     "strict": false
