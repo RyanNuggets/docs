@@ -12,15 +12,17 @@
     "tabs": [
       {
         "tab": "Documentation",
-        "groups": [
+        "anchors": [
           {
-            "group": "Introduction",
+            "anchor": "Welcome to Kova",
+            "icon": "house",
             "pages": [
               "welcome-to-kova"
             ]
           },
           {
-            "group": "Getting Started",
+            "anchor": "Getting Started",
+            "icon": "rocket",
             "pages": [
               "creating-a-server",
               "joining-a-server",
@@ -28,13 +30,19 @@
             ]
           },
           {
-            "group": "Setting Up Your Server",
-            "pages": [
-              "server-management-overview",
-              "general-settings",
-              "members",
-              "roles-and-permissions",
-              "departments-and-divisions",
+            "anchor": "Setting Up Your Server",
+            "icon": "gear",
+            "groups": [
+              {
+                "group": "Server Setup",
+                "pages": [
+                  "server-management-overview",
+                  "general-settings",
+                  "members",
+                  "roles-and-permissions",
+                  "departments-and-divisions"
+                ]
+              },
               {
                 "group": "Integrations",
                 "pages": [
@@ -49,29 +57,23 @@
                 ]
               }
             ]
+          },
+          {
+            "anchor": "Discord",
+            "icon": "discord",
+            "href": "https://discord.gg/your-invite-link"
+          },
+          {
+            "anchor": "Email",
+            "icon": "envelope",
+            "href": "mailto:your-email@kovahub.app"
+          },
+          {
+            "anchor": "Kova Site",
+            "icon": "globe",
+            "href": "https://kovahub.app"
           }
         ]
-      }
-    ],
-    "anchors": [
-      {
-        "anchor": "Welcome to Kova",
-        "href": "/welcome-to-kova"
-      },
-      {
-        "anchor": "Discord",
-        "href": "https://discord.gg/your-invite-link",
-        "icon": "discord"
-      },
-      {
-        "anchor": "Email",
-        "href": "mailto:your-email@kovahub.app",
-        "icon": "envelope"
-      },
-      {
-        "anchor": "Kova Site",
-        "href": "https://kovahub.app",
-        "icon": "globe"
       }
     ]
   },
