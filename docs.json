@@ -32,11 +32,17 @@
           "members",
           "roles-and-permissions",
           "departments-and-divisions",
-          "integrations",
           {
             "group": "Integrations",
             "pages": [
-              "discord-integration"
+              "discord-integration",
+              {
+                "group": "ER:LC",
+                "pages": [
+                  "api-key",
+                  "event-webhook"
+                ]
+              }
             ]
           }
         ]
