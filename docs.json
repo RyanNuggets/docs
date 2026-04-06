@@ -1,13 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Kova Hub Docs",
+  "name": "Kova Documentation",
   "colors": {
     "primary": "#ff7bac",
     "light": "#ffb2ce",
     "dark": "#ff4d8e"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -100,5 +99,6 @@
   },
   "appearance": {
     "strict": false
-  }
+  },
+  "favicon": "/images/Asset2@2x.png"
 }
