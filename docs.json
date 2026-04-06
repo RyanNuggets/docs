@@ -83,12 +83,28 @@
                     "pages": [
                       "police-overview",
                       "entering-the-cad",
-                      "records",
+                      "pd-records",
                       "warrants-and-bolos",
                       "penal-codes",
                       "ten-codes"
                     ]
-                  }
+                  },
+                  {
+                    "group": "Fire/EMS Panel",
+                    "pages": [
+                      "fire-ems-overview",
+                      "fd-records",
+                      "triage"
+                    ]
+                  },
+                  {
+                    "group": "DOT Panel",
+                    "pages": [
+                      "dot-overview",
+                      "road-closures"
+                    ]
+                  },
+                  "menu-button"
                 ]
               }
             ]
