@@ -11,22 +11,39 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Untitled Tab",
-        "anchors": [
+        "tab": "Introduction",
+        "pages": [
+          "welcome-to-kova"
+        ]
+      },
+      {
+        "tab": "Getting Started",
+        "pages": [
+          "creating-a-server",
+          "joining-a-server",
+          "linking-your-accoutn"
+        ]
+      },
+      {
+        "tab": "Setting Up Your Server",
+        "pages": [
+          "server-management-overview",
+          "general-settings",
+          "members",
+          "roles-and-permissions",
+          "departments-and-divisions",
           {
-            "anchor": "Email",
-            "icon": "envelope",
-            "href": "mailto:support@kovahub.app"
-          },
-          {
-            "anchor": "Discord",
-            "icon": "discord",
-            "href": "https://discord.gg/kovahub"
-          },
-          {
-            "anchor": "Kova Site",
-            "icon": "globe",
-            "href": "https://kovahub.app"
+            "group": "Integrations",
+            "pages": [
+              "discord-integration",
+              {
+                "group": "ER:LC",
+                "pages": [
+                  "api-key",
+                  "event-webhook"
+                ]
+              }
+            ]
           }
         ]
       }
@@ -47,15 +64,15 @@
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
   },
   "appearance": {
     "strict": false
