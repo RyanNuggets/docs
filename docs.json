@@ -71,6 +71,7 @@
                 "pages": [
                   {
                     "group": "Dispatch Panel",
+                    "icon": "microphone",
                     "pages": [
                       "overview",
                       "creating-and-managing-calls",
@@ -80,6 +81,7 @@
                   },
                   {
                     "group": "Police Panel",
+                    "icon": "handcuffs",
                     "pages": [
                       "police-overview",
                       "entering-the-cad",
@@ -91,6 +93,7 @@
                   },
                   {
                     "group": "Fire/EMS Panel",
+                    "icon": "fire",
                     "pages": [
                       "fire-ems-overview",
                       "fd-records",
@@ -99,6 +102,7 @@
                   },
                   {
                     "group": "DOT Panel",
+                    "icon": "traffic-cone",
                     "pages": [
                       "dot-overview",
                       "road-closures"
