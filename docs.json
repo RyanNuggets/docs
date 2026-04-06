@@ -77,6 +77,17 @@
                       "units-and-statuses",
                       "unit-groups"
                     ]
+                  },
+                  {
+                    "group": "Police Panel",
+                    "pages": [
+                      "police-overview",
+                      "entering-the-cad",
+                      "records",
+                      "warrants-and-bolos",
+                      "penal-codes",
+                      "ten-codes"
+                    ]
                   }
                 ]
               }
