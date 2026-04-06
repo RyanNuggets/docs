@@ -100,5 +100,6 @@
   "appearance": {
     "strict": false
   },
-  "favicon": "/images/Asset2@2x.png"
+  "favicon": "/images/Asset2@2x.png",
+  "description": "Kova is a free, modern CAD system built specifically for ER:LC communities on Roblox."
 }
