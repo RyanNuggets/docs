@@ -9,16 +9,9 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "Untitled Anchor",
-        "pages": [
-          "welcome-to-kova"
-        ]
-      },
-      {
-        "anchor": "Documentation",
-        "icon": "book-open",
+        "tab": "Documentation",
         "pages": [
           {
             "group": "Getting Started",
@@ -53,6 +46,23 @@
           }
         ]
       }
+    ],
+    "anchors": [
+      {
+        "anchor": "Email",
+        "icon": "envelope",
+        "href": "mailto:support@kovahub.app"
+      },
+      {
+        "anchor": "Discord",
+        "icon": "discord",
+        "href": "https://discord.gg/kovahub"
+      },
+      {
+        "anchor": "Kova Site",
+        "icon": "globe",
+        "href": "https://kovahub.app"
+      }
     ]
   },
   "logo": {
@@ -70,15 +80,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "appearance": {
     "strict": false
