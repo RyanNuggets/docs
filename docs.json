@@ -11,39 +11,42 @@
   "navigation": {
     "anchors": [
       {
-        "anchor": "Introduction",
-        "icon": "house",
+        "anchor": "Documentation",
+        "icon": "book-open",
         "pages": [
-          "welcome-to-kova"
-        ]
-      },
-      {
-        "anchor": "Getting Started",
-        "icon": "rocket",
-        "pages": [
-          "creating-a-server",
-          "joining-a-server",
-          "linking-your-accoutn"
-        ]
-      },
-      {
-        "anchor": "Setting Up Your Server",
-        "icon": "gear",
-        "pages": [
-          "server-management-overview",
-          "general-settings",
-          "members",
-          "roles-and-permissions",
-          "departments-and-divisions",
           {
-            "group": "Integrations",
+            "group": "Introduction",
             "pages": [
-              "discord-integration",
+              "welcome-to-kova"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "creating-a-server",
+              "joining-a-server",
+              "linking-your-accoutn"
+            ]
+          },
+          {
+            "group": "Setting Up Your Server",
+            "pages": [
+              "server-management-overview",
+              "general-settings",
+              "members",
+              "roles-and-permissions",
+              "departments-and-divisions",
               {
-                "group": "ER:LC",
+                "group": "Integrations",
                 "pages": [
-                  "api-key",
-                  "event-webhook"
+                  "discord-integration",
+                  {
+                    "group": "ER:LC",
+                    "pages": [
+                      "api-key",
+                      "event-webhook"
+                    ]
+                  }
                 ]
               }
             ]
