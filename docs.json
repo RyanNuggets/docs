@@ -14,12 +14,7 @@
         "anchor": "Documentation",
         "icon": "book-open",
         "pages": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "welcome-to-kova"
-            ]
-          },
+          "welcome-to-kova",
           {
             "group": "Getting Started",
             "pages": [
